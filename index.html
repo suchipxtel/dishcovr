@@ -1441,14 +1441,14 @@ a { text-decoration: none; color: inherit; }
         <a href="#features" class="btn-outline">See Features</a>
       </div>
       <div class="hero__founders">
-        <img src="friend1.jpg" alt="Suchi" loading="eager">
-        <img src="friend2.jpg" alt="Aastha" loading="eager">
+        <img src="imgs/friend1.jpg" alt="Suchi" loading="eager">
+        <img src="imgs/friend2.jpg" alt="Aastha" loading="eager">
         <span>Built by Suchi &amp; Aastha</span>
       </div>
     </div>
     <div class="hero__visual">
-      <img src="injera-platter.jpg" alt="Ethiopian injera platter with colorful stews" class="hero__img-main">
-      <img src="sambusa.jpg" alt="Golden sambusas" class="hero__img-secondary">
+      <img src="imgs/injera-platter.jpg" alt="Ethiopian injera platter with colorful stews" class="hero__img-main">
+      <img src="imgs/sambusa.jpg" alt="Golden sambusas" class="hero__img-secondary">
       <div class="hero__score-card">
         <div class="hero__score-num">9.4</div>
         <div class="hero__score-info">
@@ -1553,16 +1553,16 @@ a { text-decoration: none; color: inherit; }
         <p style="font-size:13px;color:var(--text-muted);margin-bottom:10px;">Click the photo that matches:</p>
         <div class="photo-match__grid">
           <div class="photo-match__option" data-correct="false" onclick="photoMatch(this)">
-            <img src="sambusa.jpg" alt="Option 1">
+            <img src="imgs/sambusa.jpg" alt="Option 1">
           </div>
           <div class="photo-match__option" data-correct="true" onclick="photoMatch(this)">
-            <img src="injera-platter.jpg" alt="Option 2">
+            <img src="imgs/injera-platter.jpg" alt="Option 2">
           </div>
           <div class="photo-match__option" data-correct="false" onclick="photoMatch(this)">
-            <img src="platter-orange.jpg" alt="Option 3">
+            <img src="imgs/platter-orange.jpg" alt="Option 3">
           </div>
           <div class="photo-match__option" data-correct="false" onclick="photoMatch(this)">
-            <img src="menu-scan.jpg" alt="Option 4">
+            <img src="imgs/menu-scan.jpg" alt="Option 4">
           </div>
         </div>
         <div class="photo-match__feedback" id="photoFeedback">✓ Matched! AI finds real photos for every dish</div>
@@ -1610,11 +1610,11 @@ a { text-decoration: none; color: inherit; }
         <p style="font-size:15px;font-weight:500;margin-top:4px;color:var(--text-muted)">Which would you order?</p>
         <div class="dish-duel__arena" id="duelArena">
           <div class="duel-option" onclick="pickDuel(this, 'left')">
-            <img src="injera-platter.jpg" alt="Injera Platter">
+            <img src="imgs/injera-platter.jpg" alt="Injera Platter">
             <div class="duel-option__name">Injera Platter</div>
           </div>
           <div class="duel-option" onclick="pickDuel(this, 'right')">
-            <img src="sambusa.jpg" alt="Sambusa">
+            <img src="imgs/sambusa.jpg" alt="Sambusa">
             <div class="duel-option__name">Golden Sambusa</div>
           </div>
         </div>
@@ -1628,7 +1628,7 @@ a { text-decoration: none; color: inherit; }
         <h3>Group Order</h3>
         <div class="group-order__people">
           <div class="group-person">
-            <img src="friend1.jpg" alt="Suchi" class="group-person__avatar">
+            <img src="imgs/friend1.jpg" alt="Suchi" class="group-person__avatar">
             <div class="group-person__name">Suchi</div>
             <div class="group-person__tags">
               <span class="group-tag group-tag--spicy">🌶 Spicy</span>
@@ -1637,7 +1637,7 @@ a { text-decoration: none; color: inherit; }
             </div>
           </div>
           <div class="group-person">
-            <img src="friend2.jpg" alt="Aastha" class="group-person__avatar">
+            <img src="imgs/friend2.jpg" alt="Aastha" class="group-person__avatar">
             <div class="group-person__name">Aastha</div>
             <div class="group-person__tags">
               <span class="group-tag group-tag--veg">🌿 Vegetarian</span>
@@ -1668,11 +1668,10 @@ a { text-decoration: none; color: inherit; }
         <div class="feature-card__num">05</div>
         <h3>Menu History</h3>
         <div class="menu-history__search">
-          <input type="text" placeholder="Search your history..." oninput="searchHistory(this.value)">
         </div>
         <div class="timeline" id="timeline">
           <div class="timeline-item" data-search="kitfo abyssinia">
-            <img src="injera-platter.jpg" alt="" class="timeline-item__img">
+            <img src="imgs/injera-platter.jpg" alt="" class="timeline-item__img">
             <div class="timeline-item__info">
               <div class="timeline-item__date">Mar 15</div>
               <div class="timeline-item__title">Abyssinia — Kitfo</div>
@@ -1681,7 +1680,7 @@ a { text-decoration: none; color: inherit; }
             <img src="friend1.jpg" alt="" class="timeline-item__avatar">
           </div>
           <div class="timeline-item" data-search="truffle pasta trattoria roma">
-            <img src="platter-orange.jpg" alt="" class="timeline-item__img">
+            <img src="imgs/platter-orange.jpg" alt="" class="timeline-item__img">
             <div class="timeline-item__info">
               <div class="timeline-item__date">Mar 8</div>
               <div class="timeline-item__title">Trattoria Roma — Truffle Pasta</div>
@@ -1689,7 +1688,7 @@ a { text-decoration: none; color: inherit; }
             <span class="timeline-item__score">8.9</span>
           </div>
           <div class="timeline-item" data-search="bun bo hue pho 75">
-            <img src="sambusa.jpg" alt="" class="timeline-item__img">
+            <img src="imgs/sambusa.jpg" alt="" class="timeline-item__img">
             <div class="timeline-item__info">
               <div class="timeline-item__date">Feb 28</div>
               <div class="timeline-item__title">Pho 75 — Bun Bo Hue</div>
@@ -1697,13 +1696,13 @@ a { text-decoration: none; color: inherit; }
             <span class="timeline-item__score">9.3</span>
           </div>
           <div class="timeline-item" data-search="duck confit le petit">
-            <img src="injera-platter.jpg" alt="" class="timeline-item__img">
+            <img src="imgs/injera-platter.jpg" alt="" class="timeline-item__img">
             <div class="timeline-item__info">
               <div class="timeline-item__date">Feb 14</div>
               <div class="timeline-item__title">Le Petit — Duck Confit</div>
             </div>
             <span class="timeline-item__score">8.7</span>
-            <img src="friend2.jpg" alt="" class="timeline-item__avatar">
+            <img src="imgs/friend2.jpg" alt="" class="timeline-item__avatar">
           </div>
         </div>
         <p class="feature-card__caption">Every menu scanned, every dish loved — your complete food diary.</p>
@@ -1714,7 +1713,7 @@ a { text-decoration: none; color: inherit; }
         <div class="feature-card__num">06</div>
         <h3>Taste Twin</h3>
         <div class="taste-twin__display">
-          <img src="friend1.jpg" alt="Suchi" class="taste-twin__avatar">
+          <img src="imgs/friend1.jpg" alt="Suchi" class="taste-twin__avatar">
           <div class="taste-twin__circle" id="twinCircle">
             <svg viewBox="0 0 100 100">
               <circle class="bg" cx="50" cy="50" r="40" stroke-width="6" fill="none"/>
@@ -1722,7 +1721,7 @@ a { text-decoration: none; color: inherit; }
             </svg>
             <div class="taste-twin__pct" id="twinPct">0%</div>
           </div>
-          <img src="friend2.jpg" alt="Aastha" class="taste-twin__avatar">
+          <img src="imgs/friend2.jpg" alt="Aastha" class="taste-twin__avatar">
         </div>
         <div class="taste-twin__details" id="twinDetails">
           <div class="taste-twin__agree" id="twinAgree">
@@ -1790,7 +1789,7 @@ a { text-decoration: none; color: inherit; }
      ============================================ -->
 <section class="cta-section" id="cta">
   <div class="cta-section__bg">
-    <img src="injera-platter.jpg" alt="" loading="lazy">
+    <img src="imgs/injera-platter.jpg" alt="" loading="lazy">
   </div>
   <div class="cta-section__inner">
     <h2 class="cta-section__title reveal">Stop guessing.<br>Start <em style="font-family:var(--font-display);font-style:italic">dishcovr-ing.</em></h2>
@@ -1808,8 +1807,8 @@ a { text-decoration: none; color: inherit; }
       </div>
     </div>
     <div class="cta-section__founders reveal">
-      <img src="friend1.jpg" alt="Suchi">
-      <img src="friend2.jpg" alt="Aastha">
+      <img src="imgs/friend1.jpg" alt="Suchi">
+      <img src="imgs/friend2.jpg" alt="Aastha">
       <span>Built by Suchi &amp; Aastha</span>
     </div>
   </div>
@@ -1878,20 +1877,20 @@ function toggleTheme() {
 // MENU UPLOAD
 // ===========================================
 const DEMO_DISHES = [
-  { name: 'Kitfo', price: '$17.50', score: '9.6', confidence: '97%', tags: ['Spicy', 'Traditional'], stars: '4.8', img: 'injera-platter.jpg', aiPick: true },
-  { name: 'Doro Qey Wot', price: '$18.25', score: '9.4', confidence: '95%', tags: ['Spicy', 'Contains Dairy'], stars: '4.7', img: 'platter-orange.jpg', aiPick: true },
-  { name: 'Tibs', price: '$16.50', score: '8.9', confidence: '91%', tags: ['Savory', 'Gluten-Free'], stars: '4.5', img: 'sambusa.jpg', aiPick: false },
-  { name: 'Gored Gored', price: '$17.50', score: '8.7', confidence: '88%', tags: ['Spicy', 'Traditional'], stars: '4.3', img: 'injera-platter.jpg', aiPick: false },
-  { name: 'Lamb Qey Wot', price: '$17.00', score: '8.5', confidence: '86%', tags: ['Spicy', 'Rich'], stars: '4.6', img: 'platter-orange.jpg', aiPick: false },
-  { name: 'Awaze Tibs', price: '$17.00', score: '8.3', confidence: '84%', tags: ['Spicy', 'Savory'], stars: '4.4', img: 'sambusa.jpg', aiPick: false },
+  { name: 'Kitfo', price: '$17.50', score: '9.6', confidence: '97%', tags: ['Spicy', 'Traditional'], stars: '4.8', img: 'imgs/injera-platter.jpg', aiPick: true },
+  { name: 'Doro Qey Wot', price: '$18.25', score: '9.4', confidence: '95%', tags: ['Spicy', 'Contains Dairy'], stars: '4.7', img: 'imgs/platter-orange.jpg', aiPick: true },
+  { name: 'Tibs', price: '$16.50', score: '8.9', confidence: '91%', tags: ['Savory', 'Gluten-Free'], stars: '4.5', img: 'imgs/sambusa.jpg', aiPick: false },
+  { name: 'Gored Gored', price: '$17.50', score: '8.7', confidence: '88%', tags: ['Spicy', 'Traditional'], stars: '4.3', img: 'imgs/injera-platter.jpg', aiPick: false },
+  { name: 'Lamb Qey Wot', price: '$17.00', score: '8.5', confidence: '86%', tags: ['Spicy', 'Rich'], stars: '4.6', img: 'imgs/platter-orange.jpg', aiPick: false },
+  { name: 'Awaze Tibs', price: '$17.00', score: '8.3', confidence: '84%', tags: ['Spicy', 'Savory'], stars: '4.4', img: 'imgs/sambusa.jpg', aiPick: false },
 ];
 
 const CUSTOM_DISHES = [
-  { name: 'Grilled Salmon', price: '$24.00', score: '9.2', confidence: '94%', tags: ['Gluten-Free', 'Fresh'], stars: '4.7', img: 'platter-orange.jpg', aiPick: true },
-  { name: 'Caesar Salad', price: '$14.00', score: '8.8', confidence: '92%', tags: ['Vegetarian', 'Light'], stars: '4.5', img: 'sambusa.jpg', aiPick: true },
-  { name: 'Truffle Pasta', price: '$22.00', score: '9.0', confidence: '89%', tags: ['Rich', 'Vegetarian'], stars: '4.8', img: 'injera-platter.jpg', aiPick: false },
-  { name: 'Braised Short Rib', price: '$28.00', score: '8.6', confidence: '87%', tags: ['Rich', 'Savory'], stars: '4.6', img: 'platter-orange.jpg', aiPick: false },
-  { name: 'Tiramisu', price: '$12.00', score: '8.4', confidence: '85%', tags: ['Sweet', 'Contains Dairy'], stars: '4.4', img: 'sambusa.jpg', aiPick: false },
+  { name: 'Grilled Salmon', price: '$24.00', score: '9.2', confidence: '94%', tags: ['Gluten-Free', 'Fresh'], stars: '4.7', img: 'imgs/platter-orange.jpg', aiPick: true },
+  { name: 'Caesar Salad', price: '$14.00', score: '8.8', confidence: '92%', tags: ['Vegetarian', 'Light'], stars: '4.5', img: 'imgs/sambusa.jpg', aiPick: true },
+  { name: 'Truffle Pasta', price: '$22.00', score: '9.0', confidence: '89%', tags: ['Rich', 'Vegetarian'], stars: '4.8', img: 'imgs/injera-platter.jpg', aiPick: false },
+  { name: 'Braised Short Rib', price: '$28.00', score: '8.6', confidence: '87%', tags: ['Rich', 'Savory'], stars: '4.6', img: 'imgs/platter-orange.jpg', aiPick: false },
+  { name: 'Tiramisu', price: '$12.00', score: '8.4', confidence: '85%', tags: ['Sweet', 'Contains Dairy'], stars: '4.4', img: 'imgs/sambusa.jpg', aiPick: false },
 ];
 
 // Drag and drop
